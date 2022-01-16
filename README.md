@@ -14,7 +14,9 @@ dynamic programming
 
 ## What was the key point and the hard part?
 
+Starting from the small coin, fill up the dp array. dp[i][j] += 1 when it is possible to make it.
 
+After that , starting from the start, search all dp array and if it is not zero, add that possible cases to dp[current location + current coins value * current coins's number(one to n).
 
 ## Where can I get more help, if I need it?
 
